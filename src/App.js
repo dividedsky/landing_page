@@ -1,5 +1,5 @@
 import React from "react";
-import Landing from "./components/Landing";
+import ClassForm from "./components/ClassForm";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <CssBaseline />
-      <Landing theme={theme} />
+      <ClassForm />
     </div>
   );
 }
